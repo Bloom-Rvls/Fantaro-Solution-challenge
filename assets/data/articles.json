@@ -1,0 +1,39 @@
+{
+    "articles": [
+        {
+            "id" : "1",
+            "imageUrl" : "assets/images/FAKO.jpg",
+            "title" : "Pollution terrestre par les déchets organiques",
+            "details" : "les déchets organiques mal gérés peuvent provoquer des nuisances tels que les mauvaises odeurs dues à la pourriture, la pollution des sols, la transmission de plusieurs maladies et beaucoup d’autres encore."
+
+        },
+        {
+            "id" : "2",
+            "imageUrl" : "assets/images/DANGER_APPAREILS.jpeg",
+            "title" : "Danger des appareils éléctroniques",
+            "details" : "Selon une étude américaine, l’utilisation d’appareils électroniques (PC, smartphones, tablettes, télés, etc.) avant le coucher favoriserait les troubles du sommeil. Autre explication, les activités pratiquées sur ces équipements (navigation sur le Web, jeux vidéo, réseaux sociaux et dans une moindre mesure le visionnage d'émissions télé) stimuleraient beaucoup le cerveau qui aurait ensuite du mal à ralentir son activité pour trouver le sommeil.Enfin les auteurs de l'étude observent de manière plus terre à terre que certains équipements comme les smartphones ou les portables perturbent directement le sommeil de leurs propriétaires par les signaux qu'ils émettent (sonnerie d'appel, alerte SMS ou réception d'emails lorsqu'on est endormi)"
+
+        },
+        {
+            "id" : "3",
+            "imageUrl" : "assets/images/FAKO.jpg",
+            "title" : "Pollution terrestre par les déchets organiques",
+            "details" : "les déchets organiques mal gérés peuvent provoquer des nuisances tels que les mauvaises odeurs dues à la pourriture, la pollution des sols, la transmission de plusieurs maladies et beaucoup d’autres encore."
+
+        },
+        {
+            "id" : "4",
+            "imageUrl" : "assets/images/FAKO.jpg",
+            "title" : "Pollution terrestre par les déchets organiques",
+            "details" : "les déchets organiques mal gérés peuvent provoquer des nuisances tels que les mauvaises odeurs dues à la pourriture, la pollution des sols, la transmission de plusieurs maladies et beaucoup d’autres encore."
+
+        },
+        {
+            "id" : "5",
+            "imageUrl" : "assets/images/FAKO.jpg",
+            "title" : "Pollution terrestre par les déchets organiques",
+            "details" : "les déchets organiques mal gérés peuvent provoquer des nuisances tels que les mauvaises odeurs dues à la pourriture, la pollution des sols, la transmission de plusieurs maladies et beaucoup d’autres encore."
+
+        }
+    ]
+}
