@@ -25,7 +25,7 @@ class ArticlesListView extends StatelessWidget {
           
           Container(
             padding: const EdgeInsets.all(10.0),
-            height:400,
+            height:600,
             color: Colors.transparent,
             child: ListView.separated(
               scrollDirection: Axis.vertical,
