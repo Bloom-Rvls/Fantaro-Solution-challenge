@@ -9,11 +9,14 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Fantaro',
       theme: ThemeData(
         primarySwatch: Colors.red,
       ),
-      home: MyHomePage(title: 'Fantaro',),
+      home: MyHomePage(
+        title: 'Fantaro',
+      ),
     );
   }
 }
@@ -42,9 +45,9 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       drawer: NavDrawer(),
-        appBar: AppBar(
-          title: Image.asset('assets/images/icon.png'),
-        ),
+      appBar: AppBar(
+        title: Image.asset('assets/images/icon.png'),
+      ),
       body: pages[selectedIndex],
     );
   }
