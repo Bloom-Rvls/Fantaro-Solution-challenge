@@ -4,35 +4,40 @@
             "id" : "1",
             "imageUrl" : "assets/images/data_center_pollution.jpg",
             "title" : "Pollution des data centers",
-            "details" : "Les données manipulées par les entreprises sont stockées dans les data centers via les serveurs, les disques durs, les routeurs. La manipulation de ces données (stockage et distribution) provoque un rechauffement des serveurs, ils ont besoins de refroidissement pour bien fonctionner. Or un dispositif de refroidissement necessite de la consommation d'energie assez enorme puisqu'ils doivent etre en marche 24h/24, 7jours/7 mais aussi des ressources en eau."
+            "danger" : "Les données manipulées par les entreprises sont stockées dans les data centers via les serveurs, les disques durs, les routeurs. La manipulation de ces données (stockage et distribution) provoque un rechauffement des serveurs, ils ont besoins de refroidissement pour bien fonctionner. Or un dispositif de refroidissement necessite de la consommation d'energie assez enorme puisqu'ils doivent etre en marche 24h/24, 7jours/7 mais aussi des ressources en eau.",
+            "solutions": "Green data center \n -Utilisation de serveurs virtuel : ils fonctionnent/consomment que lorsqu'ils sont utilisés autrement ils sont en état de veille \n -Relocalisation des petits data centers : les mettre dans des data centers plus efficace pour faire de l'économie d'énergie \n -Faire appel aux intelligences artificiels : ils seront capable d'optimiser l'utilisation des ressources en controlant la quantité d'eau utilisée pour le refroidissement des data centers \n -Utilisation d'energie renouveleble pour alimenter les dispositifs de refroidissement \n -D'autres alternatives aux dispositifs de refroidissement : immerger les serveurs dans de l'huile(absorbe jusqu'à 1500 fois plus de chaleur que l'air), ou dans un lac ou des océans(free cooling)"
 
         },
         {
             "id" : "2",
             "imageUrl" : "assets/images/DANGER_APPAREILS.jpeg",
             "title" : "Danger des appareils éléctroniques",
-            "details" : "Selon une étude américaine, l’utilisation d’appareils électroniques (PC, smartphones, tablettes, télés, etc.) avant le coucher favoriserait les troubles du sommeil. Autre explication, les activités pratiquées sur ces équipements (navigation sur le Web, jeux vidéo, réseaux sociaux et dans une moindre mesure le visionnage d'émissions télé) stimuleraient beaucoup le cerveau qui aurait ensuite du mal à ralentir son activité pour trouver le sommeil.Enfin les auteurs de l'étude observent de manière plus terre à terre que certains équipements comme les smartphones ou les portables perturbent directement le sommeil de leurs propriétaires par les signaux qu'ils émettent (sonnerie d'appel, alerte SMS ou réception d'emails lorsqu'on est endormi)"
+            "danger" : "Selon une étude américaine, l’utilisation d’appareils électroniques (PC, smartphones, tablettes, télés, etc.) avant le coucher favoriserait les troubles du sommeil. Autre explication, les activités pratiquées sur ces équipements (navigation sur le Web, jeux vidéo, réseaux sociaux et dans une moindre mesure le visionnage d'émissions télé) stimuleraient beaucoup le cerveau qui aurait ensuite du mal à ralentir son activité pour trouver le sommeil.Enfin les auteurs de l'étude observent de manière plus terre à terre que certains équipements comme les smartphones ou les portables perturbent directement le sommeil de leurs propriétaires par les signaux qu'ils émettent (sonnerie d'appel, alerte SMS ou réception d'emails lorsqu'on est endormi)",
+            "solutions": "- Diminuer la luminosité de l'écran de nos appareils (PC, smartphone) lors de ses utilisations le soir. \n - Ne pas les utiliser 2h avant de se coucher. \n - Et débranchez tout pour bien dormir."
 
         },
         {
             "id" : "3",
             "imageUrl" : "assets/images/organics_trash__pollution.jpg",
             "title" : "Pollution terrestre par les déchets organiques",
-            "details" : "les déchets organiques mal gérés peuvent provoquer des nuisances tels que les mauvaises odeurs dues à la pourriture, la pollution des sols, la transmission de plusieurs maladies et beaucoup d’autres encore."
+            "danger" : "les déchets organiques mal gérés peuvent provoquer des nuisances tels que les mauvaises odeurs dues à la pourriture, la pollution des sols, la transmission de plusieurs maladies et beaucoup d’autres encore.",
+            "solutions": "Il est fortement conseiller de ne pas jetter les dechets organiques dans les poubelles mais de les recyclés chez soi grâce au compostage, c’est-à-dire,  en faire de l’engrais. Triez vos déchets organiques pour qu’ils puissent être correctement recyclés: les-mettre  dans un trou dans le jardin par exemple, ou bien dans un petit bac a ordure avec de la terre"
 
         },
         {
             "id" : "4",
             "imageUrl" : "assets/images/email_pollution.jpg",
             "title" : "Pollution numerique – email",
-            "details" : "Sachez que lorsque nous envoyons des emails de taille 1 Mo, c'est équivalent 19g de CO2. Or selon une étude, 34 millions  de mails sont envoyée tous les heures, ce qui correspond à une consommation de 14 tonnes de pétrole. En effet, lorsque nous envoyons ou stockons des données sur le Cloud, ces processus dépenses énormément d'énergie et provoque du dégagement de CO2. Tous les jours, 12,3 mails sont envoyé par les utilisateurs, or 75% de ces mails sont des Spam et les newsletters où l'on s'abonne mais que nous ne lisons pas. Ils restent juste dans notre boite mail."
+            "danger" : "Sachez que lorsque nous envoyons des emails de taille 1 Mo, c'est équivalent 19g de CO2. Or selon une étude, 34 millions  de mails sont envoyée tous les heures, ce qui correspond à une consommation de 14 tonnes de pétrole. En effet, lorsque nous envoyons ou stockons des données sur le Cloud, ces processus dépenses énormément d'énergie et provoque du dégagement de CO2. Tous les jours, 12,3 mails sont envoyé par les utilisateurs, or 75% de ces mails sont des Spam et les newsletters où l'on s'abonne mais que nous ne lisons pas. Ils restent juste dans notre boite mail.",
+            "solutions": "-Nettoyage de boite mail de maniere periodique \n -Envoi de mail seulement aux destinataires et reduire les mises en copie \n -Se desabonner aux sites dont on n'a pas besoin de newsletters"
 
         },
         {
             "id" : "5",
             "imageUrl" : "assets/images/streaming_pollution.jpg",
             "title" : "Pollution numérique – streaming",
-            "details" : "Les vidéos en streaming sur internet sont de haute qualité pour fournir une meilleur expérience utilisateur. Ils nécessitent une grande consommation d'énergie mais aussi de la pollution puisque l'utilisation des serveurs provoque de la production de CO2. Les vidéos y sont stockées et à chaque fois qu'on regarde des vidéos en streaming, les requêtes sont envoyés"
+            "danger" : "Les vidéos en streaming sur internet sont de haute qualité pour fournir une meilleur expérience utilisateur. Ils nécessitent une grande consommation d'énergie mais aussi de la pollution puisque l'utilisation des serveurs provoque de la production de CO2. Les vidéos y sont stockées et à chaque fois qu'on regarde des vidéos en streaming, les requêtes sont envoyés",
+            "solutions": "Privilegier le téléchargement des fichiers au lieu de lecture en streaming. De cette façon, on fait de l'économie d'énergie et de même reduire la pollution causé par le surusage des serveurs. En effet, nous n'aurons plus besoin de faire des requettes au serveur qu'en une seule fois, uniquement pour télécharger nos vidéos. Aussi, préférer d'utiliser les fonctionnalités fournies par nos navigateurs, comme mettre en favoris. En effet, cela accélère notre travail, et va contribuer à reduire le taux d'émission de CO2 du à la pollution numérique. Nous retrouvons vite les liens qu'on a visité récemment, sans faire des recherches à chaque fois"
 
         }
     ]

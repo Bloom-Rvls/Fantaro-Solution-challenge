@@ -78,7 +78,7 @@ class ArticleCard extends StatelessWidget {
                 textAlign: TextAlign.left,
               ),
               subtitle: Text(
-                Article.slice(article.details),
+                Article.slice(article.danger),
                 textAlign: TextAlign.justify,
               ),
             ),

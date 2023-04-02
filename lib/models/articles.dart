@@ -1,15 +1,17 @@
-
 class Article {
   String id;
   String imageUrl;
   String title;
-  String details;
+  String danger;
+  final String solutionTitle = "Conseils bien être et\ou Solutions";
+  String solutions;
 
   Article({
     required this.id,
     required this.imageUrl,
     required this.title,
-    required this.details,
+    required this.danger,
+    required this.solutions
   });
 
   static String slice(String data) {
@@ -23,7 +25,8 @@ class Article {
       id: json['id'] as String,
       imageUrl: json['imageUrl'] as String,
       title: json['title'] as String,
-      details: json['details'] as String,
+      danger: json['danger'] as String,
+      solutions: json['solutions'] as String
     );
   }
 }
