@@ -45,23 +45,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text(
-          widget.title,
-        ),
-        centerTitle: true,
-
-        // ignore: prefer_const_constructors
-        leading: IconButton(
-          // ignore: prefer_const_constructors
-          icon: Icon(
-            Icons.density_medium_rounded,
-            color: Colors.white,
-            size: 20,
-          ),
-          onPressed: null,
-        ),
-      ),
+      
       body: pages[selectedIndex],
     );
   }
