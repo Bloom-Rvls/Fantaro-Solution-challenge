@@ -1,23 +1,19 @@
 import 'package:flutter/material.dart';
 import 'screens/articles_screen.dart';
 
-void main() {
-  runApp(const MyApp());
-}
+import 'widgets/nav-drawer.dart';
+
+void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'Fantaro',
       theme: ThemeData(
         primarySwatch: Colors.red,
       ),
-      home: const MyHomePage(title: 'Fantaro'),
+      home: MyHomePage(),
     );
   }
 }
@@ -45,10 +41,11 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      
+      drawer: NavDrawer(),
+        appBar: AppBar(
+          title: Image.asset('assets/images/icon.png'),
+        ),
       body: pages[selectedIndex],
     );
   }
-
-  
 }
