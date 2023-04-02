@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'screens/articles_screen.dart';
 
 import 'widgets/nav-drawer.dart';
 
@@ -17,18 +18,34 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class MyHomePage extends StatelessWidget {
+class MyHomePage extends StatefulWidget {
+  const MyHomePage({super.key, required this.title});
+  final String title;
+  @override
+  State<MyHomePage> createState() => _MyHomePageState();
+}
+
+class _MyHomePageState extends State<MyHomePage> {
+  int selectedIndex = 0;
+
+  static List<Widget> pages = <Widget>[
+    ArticlesScreen(),
+  ];
+
+  void onItemPushed(int index) {
+    setState(() {
+      selectedIndex = index;
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        drawer: NavDrawer(),
+      drawer: NavDrawer(),
         appBar: AppBar(
           title: Image.asset('assets/images/icon.png'),
         ),
-        body: Container(
-            padding: EdgeInsets.only(top: 20, left: 20, right: 20),
-            child: Center(
-              child: Text('Hello, world!' '\n' 'Hello, world!'),
-            )));
+      body: pages[selectedIndex],
+    );
   }
 }
