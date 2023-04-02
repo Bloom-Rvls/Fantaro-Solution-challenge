@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import '../components/article_card.dart';
 import '../models/articles.dart';
 
-
 class ArticlesListView extends StatelessWidget {
   final List<Article> articles;
 
@@ -15,15 +14,18 @@ class ArticlesListView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.all(20.0),
+      padding: const EdgeInsets.all(10.0),
       child: SingleChildScrollView(
           scrollDirection: Axis.vertical,
           child: Column(
             children: [
               Text(
-                'Liste des articles :',
-                style: Theme.of(context).textTheme.headlineSmall,
-                textAlign: TextAlign.left,
+                'Info Dangers',
+                style: const TextStyle(
+                    fontWeight: FontWeight.bold,
+                    color: Color.fromARGB(240, 8, 52, 88),
+                    fontSize: 30.0),
+                textAlign: TextAlign.start,
               ),
               // ignore: prefer_const_constructors
               ListView.separated(
@@ -35,7 +37,7 @@ class ArticlesListView extends StatelessWidget {
                   },
                   separatorBuilder: (context, index) {
                     return const SizedBox(
-                      height: 16,
+                      height: 0,
                     );
                   }),
             ],

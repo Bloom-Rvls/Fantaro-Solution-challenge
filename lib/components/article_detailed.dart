@@ -32,10 +32,13 @@ class ArticleDetailedView extends StatelessWidget {
                   ),
                   Text(
                     article.title + "\n",
-                    style: const TextStyle(fontWeight: FontWeight.bold, color: Colors.red, fontSize: 20.0),
+                    style: const TextStyle(
+                        fontWeight: FontWeight.bold,
+                        color: Colors.red,
+                        fontSize: 20.0),
                     textAlign: TextAlign.left,
                   ),
-                  Text("\n" + article.details),
+                  Text("\n" + article.details, textAlign: TextAlign.justify),
                 ],
               )),
         ));
