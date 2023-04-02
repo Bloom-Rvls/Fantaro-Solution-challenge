@@ -12,41 +12,36 @@ class ArticlesListView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.only(
-        left: 16,
-        right: 16,
-        top: 16,
-      ),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          // ignore: prefer_const_constructors
-          
-          Container(
-            padding: const EdgeInsets.all(10.0),
-            height:600,
-            color: Colors.transparent,
-            child: ListView.separated(
-              scrollDirection: Axis.vertical,
-              itemCount: articles.length,
-              itemBuilder: (context, index) {
-                final article = articles[index];
-                return buildCard(article);
-              },
-              separatorBuilder: (context, index) {
-                return const SizedBox(
-                  width: 16,
-                );
-              }
-            ),
-          ),
-        ],
-      ),
+    return Container(
+      padding: const EdgeInsets.all(20.0),
+      child: SingleChildScrollView(
+          scrollDirection: Axis.vertical,
+          child: Column(
+            children: [
+              Text(
+                'Liste des articles :',
+                style: Theme.of(context).textTheme.headlineSmall,
+                textAlign: TextAlign.left,
+              ),
+              // ignore: prefer_const_constructors
+              ListView.separated(
+                  shrinkWrap: true,
+                  itemCount: articles.length,
+                  itemBuilder: (context, index) {
+                    final article = articles[index];
+                    return buildCard(article);
+                  },
+                  separatorBuilder: (context, index) {
+                    return const SizedBox(
+                      height: 16,
+                    );
+                  }),
+            ],
+          )),
     );
   }
-}
 
-Widget buildCard(Article article) {
-  return ArticleCard(article: article);
+  Widget buildCard(Article article) {
+    return ArticleCard(article: article);
+  }
 }
