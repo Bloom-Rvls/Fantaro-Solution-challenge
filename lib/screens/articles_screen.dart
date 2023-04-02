@@ -1,6 +1,7 @@
-import 'package:fantaro_gsc2023/api/mock_fantaro_service.dart';
-import 'package:fantaro_gsc2023/components/article_list_view.dart';
 import 'package:flutter/material.dart';
+
+import '../api/mock_fantaro_service.dart';
+import '../components/article_list_view.dart';
 
 import '../models/articles.dart';
 

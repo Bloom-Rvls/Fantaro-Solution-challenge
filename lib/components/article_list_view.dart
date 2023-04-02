@@ -1,6 +1,8 @@
-import 'package:fantaro_gsc2023/components/article_card.dart';
-import 'package:fantaro_gsc2023/models/articles.dart';
 import 'package:flutter/material.dart';
+
+import '../components/article_card.dart';
+import '../models/articles.dart';
+
 
 class ArticlesListView extends StatelessWidget {
   final List<Article> articles;
