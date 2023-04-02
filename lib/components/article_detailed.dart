@@ -22,10 +22,6 @@ class ArticleDetailedView extends StatelessWidget {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Text(
-                    article.title + "\n",
-                    style: const TextStyle(fontWeight: FontWeight.bold),
-                  ),
                   ClipRRect(
                     borderRadius: BorderRadius.circular(40.0),
                     child: Image.asset(
@@ -33,6 +29,11 @@ class ArticleDetailedView extends StatelessWidget {
                       height: 250.0,
                       width: 350.0,
                     ),
+                  ),
+                  Text(
+                    article.title + "\n",
+                    style: const TextStyle(fontWeight: FontWeight.bold, color: Colors.red, fontSize: 20.0),
+                    textAlign: TextAlign.left,
                   ),
                   Text("\n" + article.details),
                 ],

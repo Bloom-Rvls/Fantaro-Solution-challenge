@@ -68,13 +68,11 @@ class ArticleCard extends StatelessWidget {
             ListTile(
               leading: Image.asset(
                 article.imageUrl,
-                
-                
               ),
               title: Text(
-                article.title,
-                style: const TextStyle(fontWeight: FontWeight.bold),
-                textAlign: TextAlign.center,
+                article.title + "\n",
+                style: const TextStyle(fontWeight: FontWeight.bold, color: Colors.red),
+                textAlign: TextAlign.left,
               ),
               subtitle: Text(Article.slice(article.details)),
                 
