@@ -44,7 +44,7 @@ class ArticleDetailedView extends StatelessWidget {
                     textAlign: TextAlign.left,
                     style: const TextStyle(
                         fontWeight: FontWeight.bold,
-                        color: Colors.red,
+                        color: Color.fromARGB(240, 8, 52, 88),
                         fontSize: 20.0),
                   ),
                   Text("\n" + article.solutions, textAlign: TextAlign.justify),
