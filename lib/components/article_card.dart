@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:namer_app/components/article_detailed.dart';
 
 import '../models/articles.dart';
 
@@ -13,8 +14,11 @@ class ArticleCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return InkWell(
-      onTap: () {
-        const Text("card cliquer une fois");
+      onTap: () => {
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => ArticleDetailedView(article: article,)),
+        )
       },
       child: Card(
         elevation: 4.0,
