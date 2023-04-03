@@ -11,7 +11,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Fantaro',
-      theme: ThemeData.dark(),
+      //theme: ThemeData.dark(),
+      theme: ThemeData(
+        primarySwatch: Colors.red,
+      ),
       home: MyHomePage(
         title: 'Fantaro',
       ),

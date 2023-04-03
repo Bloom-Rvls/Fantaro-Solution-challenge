@@ -26,7 +26,7 @@ dev_dependencies:
 flutter_native_splash:
   color: "#ffffff"
   #background_image: "assets/images/Logo FANTARO.jpeg"
-  image: "assets/images/Logo FANTARO.jpeg"
+  image: "assets/images/gifFondu.gif"
   flutter_lints: ^2.0.0
 
 flutter:    
@@ -42,6 +42,8 @@ flutter:
     - assets/images/data_center_pollution.jpg
     - assets/images/email_pollution.jpg
     - assets/images/streaming_pollution.jpg
+    - assets/images/gifFondu.gif
+    - assets/images/Logo FANTARO.jpeg
     - assets/data/articles.json
 
   # An image asset can refer to one or more resolution-specific "variants", see
