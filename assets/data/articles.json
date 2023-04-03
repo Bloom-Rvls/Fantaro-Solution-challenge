@@ -10,7 +10,7 @@
         },
         {
             "id" : "2",
-            "imageUrl" : "assets/images/DANGER_APPAREILS.jpeg",
+            "imageUrl" : "assets/images/danger_appareils.jpg",
             "title" : "Danger des appareils éléctroniques",
             "danger" : "Selon une étude américaine, l’utilisation d’appareils électroniques (PC, smartphones, tablettes, télés, etc.) avant le coucher favoriserait les troubles du sommeil. Autre explication, les activités pratiquées sur ces équipements (navigation sur le Web, jeux vidéo, réseaux sociaux et dans une moindre mesure le visionnage d'émissions télé) stimuleraient beaucoup le cerveau qui aurait ensuite du mal à ralentir son activité pour trouver le sommeil.Enfin les auteurs de l'étude observent de manière plus terre à terre que certains équipements comme les smartphones ou les portables perturbent directement le sommeil de leurs propriétaires par les signaux qu'ils émettent (sonnerie d'appel, alerte SMS ou réception d'emails lorsqu'on est endormi)",
             "solutions": "- Diminuer la luminosité de l'écran de nos appareils (PC, smartphone) lors de ses utilisations le soir. \n - Ne pas les utiliser 2h avant de se coucher. \n - Et débranchez tout pour bien dormir."

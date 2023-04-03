@@ -33,44 +33,17 @@ class ArticleCard extends StatelessWidget {
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
-            Row(
-              mainAxisAlignment: MainAxisAlignment.end,
-              children: const [
-                IconButton(
-                  icon: Icon(
-                    Icons.archive_sharp,
-                    size: 30,
-                    color: Color.fromARGB(240, 8, 52, 88),
-                  ),
-                  onPressed: null,
-                ),
-              ],
-            ),
-            Row(
-              mainAxisSize: MainAxisSize.min,
-              children: const [
-                Icon(
-                  Icons.circle_rounded,
-                  color: Colors.yellow,
-                  size: 10,
-                ),
-                Icon(
-                  Icons.circle_rounded,
-                  color: Colors.green,
-                  size: 10,
-                ),
-                Icon(
-                  Icons.circle_rounded,
-                  color: Colors.red,
-                  size: 10,
-                ),
-              ],
-            ),
-            ListTile(
-              contentPadding: EdgeInsets.all(15.0),
-              leading: Image.asset(
+            Container(
+              child: Image.asset(
                 article.imageUrl,
+                fit: BoxFit.fill,
               ),
+            ),
+            
+            
+            
+            ListTile(
+              contentPadding: EdgeInsets.all(15.0), 
               title: Text(
                 article.title + "\n",
                 style: const TextStyle(

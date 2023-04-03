@@ -30,18 +30,34 @@ class ArticleDetailedView extends StatelessWidget {
                       width: 350.0,
                     ),
                   ),
+                  Container(
+                    child: Row(
+                    mainAxisAlignment: MainAxisAlignment.end,
+                    children: const [
+                      IconButton(
+                        icon: Icon(
+                          Icons.archive_sharp,
+                          size: 30,
+                          color: Color.fromARGB(240, 8, 52, 88),
+                        ),
+                        onPressed: null,
+                      ),
+                    ],
+                    ),
+                  ),
                   Text(
                     article.title + "\n",
+                    textAlign: TextAlign.justify,
                     style: const TextStyle(
                         fontWeight: FontWeight.bold,
                         color: Colors.red,
                         fontSize: 20.0),
-                    textAlign: TextAlign.left,
+                    
                   ),
                   Text("\n" + article.danger, textAlign: TextAlign.justify),
                   Text(
                     "\n" + article.solutionTitle,
-                    textAlign: TextAlign.left,
+                    textAlign: TextAlign.justify,
                     style: const TextStyle(
                         fontWeight: FontWeight.bold,
                         color: Color.fromARGB(240, 8, 52, 88),

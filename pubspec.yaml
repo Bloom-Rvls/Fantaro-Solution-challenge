@@ -38,8 +38,7 @@ flutter:
     - assets/images/icon.png
     - assets/images/icon1.jpg
     - assets/images/organics_trash__pollution.jpg
-    - assets/images/DANGER_APPAREILS.jpeg
-    - assets/images/DANGER_SOLUTION.jpeg
+    - assets/images/danger_appareils.jpg
     - assets/images/data_center_pollution.jpg
     - assets/images/email_pollution.jpg
     - assets/images/streaming_pollution.jpg
