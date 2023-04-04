@@ -42,38 +42,11 @@ class ArticlesListView extends StatelessWidget {
                     );
                   }),
             ],
-          )),
-        ));
-    /*return Container(
-      padding: const EdgeInsets.all(10.0),
-      child: SingleChildScrollView(
-          scrollDirection: Axis.vertical,
-          child: Column(
-            children: [
-              Text(
-                'Info Dangers',
-                style: const TextStyle(
-                    fontWeight: FontWeight.bold,
-                    color: Color.fromARGB(240, 8, 52, 88),
-                    fontSize: 30.0),
-                textAlign: TextAlign.start,
-              ),
-              // ignore: prefer_const_constructors
-              ListView.separated(
-                  shrinkWrap: true,
-                  itemCount: articles.length,
-                  itemBuilder: (context, index) {
-                    final article = articles[index];
-                    return buildCard(article);
-                  },
-                  separatorBuilder: (context, index) {
-                    return const SizedBox(
-                      height: 0,
-                    );
-                  }),
-            ],
-          )),
-    );*/
+          )
+        ),
+      )
+    );
+    
   }
 
   Widget buildCard(Article article) {
