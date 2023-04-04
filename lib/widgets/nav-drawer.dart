@@ -39,20 +39,20 @@ class NavDrawer extends StatelessWidget {
                   color: Color.fromARGB(240, 8, 52, 88), size: 24.0),
               title: Text('Mode nuit'),
               onTap: () => {}),
-          ListTile(
-              leading: Icon(
-                Icons.archive_sharp,
-                color: Color.fromARGB(240, 8, 52, 88),
-                size: 24.0,
-                semanticLabel: 'Text to announce in accessibility modes',
-              ),
-              title: Text('Archives'),
-              onTap: () => {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (context) => Archive()),
-                    )
-                  }),
+          // ListTile(
+          //     leading: Icon(
+          //       Icons.archive_sharp,
+          //       color: Color.fromARGB(240, 8, 52, 88),
+          //       size: 24.0,
+          //       semanticLabel: 'Text to announce in accessibility modes',
+          //     ),
+          //     title: Text('Archives'),
+          //     onTap: () => {
+          //           Navigator.push(
+          //             context,
+          //             MaterialPageRoute(builder: (context) => Archive()),
+          //           )
+          //         }),
           ListTile(
               leading: Icon(
                 Icons.adb_rounded,
